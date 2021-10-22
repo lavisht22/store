@@ -1,0 +1,12 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filters {
+  padding: 10px;
+
+  &:first-child {
+    margin-bottom: 20px;
+  }
+}

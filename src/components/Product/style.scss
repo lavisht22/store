@@ -1,0 +1,24 @@
+.product {
+  max-width: 200px;
+  padding: 2%;
+  cursor: pointer;
+  border: 1px solid lightgray;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    span {
+      display: block;
+
+      &:last-child {
+        font-weight: bold;
+      }
+    }
+  }
+}
