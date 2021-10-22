@@ -5,14 +5,11 @@ import FilterList from "../../components/FilterList";
 import Header from "../../components/Header";
 import Product from "../../components/Product";
 import Spinner from "../../components/Spinner";
+import { onlyUnique } from "../../utils/helper";
 
 import { loadProducts } from "../../utils/service";
 
 import "./style.scss";
-
-function onlyUnique(value, index, self) {
-  return self.indexOf(value) === index;
-}
 
 function Home() {
   const [loading, setLoading] = React.useState(true);
